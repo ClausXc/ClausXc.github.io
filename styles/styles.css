@@ -351,11 +351,11 @@ iframe{
     }
 
     .box-donde-venimos{
-        margin: 0;
-        padding: 0;
-        border: 0;
+        margin: 10px;
+        font-size: 1em;
         display: flex;
         flex-direction: column;
+        max-width:100%;
     }
 
     .title-h2-venimos{
