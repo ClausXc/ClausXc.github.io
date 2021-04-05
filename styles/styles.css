@@ -37,15 +37,16 @@
 /*Especificación para el texto debajo del titulo h1*/
 .tex{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1em;
+    font-size: 16px;
     color: #060A24;
     letter-spacing: 2;
     line-height: 24px;
-    max-width: 70%;
+    width: 628px;
     height: 48px;
     text-align: justify;
-    margin-bottom: 60px;
+
 }
+
 .punto{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 64px;
@@ -67,7 +68,6 @@
     padding-left: 45px;
     padding-bottom: 10px;
     padding-right: 45px; 
-    max-width: 20%;
 
   }
 
@@ -326,6 +326,13 @@ iframe{
     margin-left: 30px;
     } 
 
+    .tex{
+        font-size: 1em;
+        max-width: 70%;
+        margin-bottom: 110px;
+
+    }
+
     .box-podcast{
         display: flex;
         grid-gap:0px;
@@ -339,6 +346,7 @@ iframe{
         margin: 0;
         padding: 0;
         border: 0;
+        max-width: 70%;
     }
 
     .box-donde-venimos{
