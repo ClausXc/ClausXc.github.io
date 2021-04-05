@@ -44,6 +44,7 @@
     width: 628px;
     height: 48px;
     text-align: justify;
+    margin-bottom: 60px;
 
 }
 
@@ -346,7 +347,7 @@ iframe{
         margin: 0;
         padding: 0;
         border: 0;
-        max-width: 70%;
+        max-width: 80%;
     }
 
     .box-donde-venimos{
